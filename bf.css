@@ -19,7 +19,7 @@ border-radius: 20px;
 body{
 background-image: url("images/badel2.jpg");
 background-repeat: no-repeat;
-background-size:  1400px 1300px;
+background-size:  cover;
 background-attachment: fixed;
 
 }
