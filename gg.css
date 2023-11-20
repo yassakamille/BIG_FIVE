@@ -5,7 +5,7 @@ background-attachment: fixed;
 display: grid;
   grid-template-areas:
   "header header header"
-/*   "nav nav nav" */
+  "nav nav nav"
   "subject subject subject"
   "photo photo table"
   "issay1 isaay1 figure"
@@ -80,7 +80,7 @@ table img{
 padding-left: 20px;
 }
 .subject{
-   grid-area:suject;
+   grid-area:subject;
 padding: 10px 15px;
   width: 1300px;
   height: auto;
