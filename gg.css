@@ -10,7 +10,7 @@ display: grid;
   "photo photo table"
   "erling erling photo-erling"
   "footer footer footer";
-  grid-template-rows:30px auto 30px;
+  grid-template-rows:60px auto auto;
 }
    nav{
 /*      grid-area:nav; */
