@@ -5,7 +5,7 @@ background-attachment: fixed;
 display: grid;
   grid-tempalte-areas:
   "header header header"
-    "nav nav nav"
+/*   "nav nav nav" */
   "subject subject subject"
   "photo photo table"
   "issay1 isaay1 figure"
