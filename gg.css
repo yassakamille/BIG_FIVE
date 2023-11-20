@@ -278,7 +278,9 @@ float: right;
     border-radius: 20px;
     margin-top: 90px;
      }
-     
+     .footer{
+        grid-area:footer;
+     }
  
 
  ::-webkit-scrollbar-thumb{
