@@ -3,7 +3,7 @@ body{
 background-size:cover;
 background-attachment: fixed;
 display: grid;
-  grid-tempalte-areas:
+  grid-template-areas:
   "header header header"
 /*   "nav nav nav" */
   "subject subject subject"
