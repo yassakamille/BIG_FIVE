@@ -3,8 +3,9 @@ body{
 background-size:cover;
 background-attachment: fixed;
 display: grid;
-  grid-tempalte-areas:
+  grid-tempalte-areas:v
   "head head head"
+    "nav nav nav"
   "subject subject subject"
   "photo photo table"
   "issay isaay figure"
@@ -78,7 +79,7 @@ text-align: center;
 table img{
 padding-left: 20px;
 }
-/* .subject{
+.subject{
 padding: 10px 15px;
   width: 1300px;
   height: auto;
@@ -96,7 +97,7 @@ font-weight: bolder;
   margin-right: auto;
 font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 float:inline-end;
-} */
+}
   header{
       text-align: left;
       transform: none;
@@ -113,7 +114,7 @@ height: auto;
 float: left; 
 width: 35%;
 border-radius: 20px;
-margin-left: 20px;
+/* margin-left: 20px; */
 
   }
   .photo img{
@@ -131,7 +132,7 @@ overflow: hidden;
 padding-bottom: 30px;
   }
 
-/*   .issay {
+  .issay {
     
     height:auto ;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -164,7 +165,7 @@ padding-bottom: 30px;
       background-color: rgba(0, 0, 0, 0.575);
       
      } 
-  */
+ 
 /* .summary{
 color: white;
   size: 70%;
