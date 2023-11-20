@@ -133,7 +133,7 @@ overflow: hidden;
 padding-bottom: 30px;
   }
 
- .p.photo {
+ .photo p {
   
     height:auto ;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -198,7 +198,7 @@ a:hover{
  
     }
 table{
-width: 400px;
+width: auto;
  grid-area:table;
 /* margin-left: 160px; */
 background-repeat: no-repeat;
@@ -208,9 +208,9 @@ background: chocolate;
 border: darkblue;
 border-style: solid;
 border-width: 7px;
-tab-size: 1350px;
-display: inline-table;
-float: right;
+/* tab-size: 1350px;
+display: inline-table; */
+
 
 
 }
