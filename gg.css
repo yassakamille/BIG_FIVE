@@ -6,8 +6,8 @@ display: grid;
   grid-tempalte-areas:
   "head head head"
   "subject subject subject"
-  "photo table table"
-  "issay isaay photo"
+  "photo photo table"
+  "issay isaay figure"
   "footer footer footer";
   grid-template-rows:30px auto -30px;
 }
