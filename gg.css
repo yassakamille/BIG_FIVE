@@ -4,7 +4,14 @@ background-size:cover;
 background-attachment: fixed;
 display: grid;
   grid-tempalte-areas:
-    "head head head";
+    "head head head"
+  "nav nav nav"
+    "summary summary summary"
+  "subject subject subject"
+  "photo table table"
+  "issay isaay photo"
+"footer footer photer"
+  ;
   grid-template-rows:30px auto -30px;
 }
    nav{
