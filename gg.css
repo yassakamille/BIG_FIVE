@@ -8,7 +8,7 @@ display: grid;
     "nav nav nav"
   "subject subject subject"
   "photo photo table"
-  "issay isaay figure"
+  "issay1 isaay1 figure"
   "footer footer footer";
   grid-template-rows:30px auto 30px;
 }
@@ -135,7 +135,7 @@ padding-bottom: 30px;
   }
 
   .issay {
-     grid-area:issay;
+  
     height:auto ;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     width: 460px;
@@ -151,6 +151,7 @@ padding-bottom: 30px;
     
       }
      .issay1{
+          grid-area:issay1;
       font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 
       border-radius: 10px;
