@@ -8,7 +8,7 @@ display: grid;
   "nav nav nav"
   "subject subject subject"
   "photo photo table"
-  "issay1 isaay1 figure"
+  "erling erling photo-erling"
   "footer footer footer";
   grid-template-rows:30px auto 30px;
 }
@@ -242,22 +242,19 @@ background-color: rgb(230, 204, 61);
  }
 
  .erling{
+   grid-area:erling;
   width: 50%;
   float: right;
  
   }
   .photo-erling{
+   grid-area:photo-erling;
   width: 50%;
   float: right;
  
   }
-  
- 
-  
-  
-  
   figure{
-   grid-area:figure;
+  
   background: url("pngs/icons/card\ \(2\).png");
   width: 400px;
   background-repeat: no-repeat;
