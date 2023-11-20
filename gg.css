@@ -5,7 +5,7 @@ background-attachment: fixed;
 display: grid;
   grid-template-areas:
   "header header header"
-  "nav nav nav"
+/*   "nav nav nav" */
   "subject subject subject"
   "photo photo table"
   "erling erling photo-erling"
@@ -13,7 +13,7 @@ display: grid;
   grid-template-rows:30px auto 30px;
 }
    nav{
-     grid-area:nav;
+/*      grid-area:nav; */
       width: 1300px;
       height: 90px;
       background-color: rgb(230, 250, 232);
