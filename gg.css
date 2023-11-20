@@ -3,17 +3,17 @@ body{
 background-size:cover;
 background-attachment: fixed;
 display: grid;
-  grid-tempalte-areas:v
-  "head head head"
+  grid-tempalte-areas:
+  "header header header"
     "nav nav nav"
   "subject subject subject"
   "photo photo table"
   "issay isaay figure"
   "footer footer footer";
-  grid-template-rows:30px auto -30px;
+  grid-template-rows:30px auto 30px;
 }
    nav{
-    
+     grid-area:nav;
       width: 1300px;
       height: 90px;
       background-color: rgb(230, 250, 232);
@@ -80,6 +80,7 @@ table img{
 padding-left: 20px;
 }
 .subject{
+   grid-area:suject;
 padding: 10px 15px;
   width: 1300px;
   height: auto;
@@ -99,15 +100,16 @@ font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 float:inline-end;
 }
   header{
+     grid-area:header;
       text-align: left;
       transform: none;
       background-image: linear-gradient(to left ,rgb(194, 1, 1),rgb(221, 2, 2),rgb(212, 127, 0),rgb(201, 116, 6));
       height: 200px;
       padding: 20px;
-      grid-area:head;
+     
   }
   .photo{
- 
+  grid-area:photo;
 overflow:hidden;
 width: 300px; 
 height: auto;
@@ -133,7 +135,7 @@ padding-bottom: 30px;
   }
 
   .issay {
-    
+     grid-area:issay;
     height:auto ;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     width: 460px;
@@ -197,7 +199,7 @@ a:hover{
     }
 table{
 /* width: 400px; */
-
+ grid-area:table;
 /* margin-left: 160px; */
 background-repeat: no-repeat;
 background-size: 1800px 1750px;
@@ -254,7 +256,7 @@ background-color: rgb(230, 204, 61);
   
   
   figure{
-  
+   grid-area:figure;
   background: url("pngs/icons/card\ \(2\).png");
   width: 400px;
   background-repeat: no-repeat;
