@@ -7,7 +7,7 @@ display: grid;
   "header header header"
   "nav nav nav"
   "subject subject subject"
-  "table table photo "
+  "table table photo"
   "erling erling photo-erling"
   "footer footer footer";
   grid-template-rows:auto auto auto;
@@ -111,14 +111,14 @@ float:inline-end;
 overflow:hidden;
 /* width: 400px;  */
 height: auto;
-width: 500px;
-  float: right;
+float: right;
+width: 300px;
 border-radius: 20px;
 /* margin-left: 20px; */
   }
   .photo img{
     overflow: hidden;
-  width: 400px;
+  width: 300px;
   float: right;
     height: 250px;
     transition: 0.7s;
@@ -133,7 +133,7 @@ padding-bottom: 30px;
  .photo p {
     height:auto ;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    width: 400px;
+    width: 300px;
     text-align: right;
     padding-top: 5px;
     padding-bottom: 10px;
