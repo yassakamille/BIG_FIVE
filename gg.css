@@ -7,7 +7,7 @@ display: grid;
   "header header header"
   "nav nav nav"
   "subject subject subject"
-  "photo table table"
+  "table table table"
   "erling erling photo-erling"
   "footer footer footer";
   grid-template-rows:auto auto auto;
@@ -105,7 +105,6 @@ float:inline-end;
       background-image: linear-gradient(to left ,rgb(194, 1, 1),rgb(221, 2, 2),rgb(212, 127, 0),rgb(201, 116, 6));
       height: 200px;
       padding: 20px;
-     
   }
   .photo{
   grid-area:photo;
@@ -116,15 +115,12 @@ height: auto;
 width: 35%; */
 border-radius: 20px;
 /* margin-left: 20px; */
-
   }
   .photo img{
     overflow: hidden;
     width: 500px; 
-height: 250px;
+    height: 250px;
     transition: 0.7s;
-
-
   }
 .photo img:hover{
 overflow: hidden;
@@ -186,17 +182,15 @@ color: white;
 } */
 
     a{
-
-      text-decoration: none;
-       bottom: 100px;
+text-decoration: none;
+ bottom: 100px;
 left: 50px;
-
-
     }
+
 a:hover{
    color: orangered;
- 
     }
+
 table{
 width: auto;
  grid-area:table;
@@ -208,12 +202,11 @@ background: chocolate;
 border: darkblue;
 border-style: solid;
 border-width: 7px;
-tab-size: 1350px;
+/* tab-size: 1350px; */
 /* display: inline-table;  */
 }
 
 p.e{
-
   padding: 10px 15px;
 /*   margin-right: 500px; */
   width: 800px;
