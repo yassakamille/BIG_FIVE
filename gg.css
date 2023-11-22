@@ -7,7 +7,7 @@ display: grid;
   "header header header"
   "nav nav nav"
   "subject subject subject"
-  "photo table table"
+/*   "photo table table" */
   "erling erling photo-erling"
   "footer footer footer";
   grid-template-rows:auto auto auto;
@@ -210,12 +210,7 @@ border-style: solid;
 border-width: 7px;
 /* tab-size: 1350px;
 display: inline-table; */
-
-
-
 }
-
-
 
 p.e{
 
@@ -229,13 +224,9 @@ font-weight: bolder;
   font-size: 20px; 
   color:rgb(0, 0, 0);
   line-height: 40px;
-
-
   text-align: right;
   direction: rtl;
- 
 font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-
 background-color: rgb(230, 204, 61);
 
  }
@@ -275,8 +266,10 @@ float: right;
     border-radius: 20px;
     margin-top: 90px;
      }
-     .footer{
+     footer{
         grid-area:footer;
+        height: 200px;
+      padding: 20px;
      }
  
 
@@ -293,7 +286,5 @@ width: 10px;
 }
 
 *{
-
-
   text-decoration: none;
 };
