@@ -112,13 +112,13 @@ overflow:hidden;
 /* width: 400px;  */
 height: auto;
 float: right;
-width: 300px;
+width: 400px;
 border-radius: 20px;
 /* margin-left: 20px; */
   }
   .photo img{
     overflow: hidden;
-  width: 300px;
+  width: 400px;
   float: right;
     height: 250px;
     transition: 0.7s;
@@ -133,7 +133,7 @@ padding-bottom: 30px;
  .photo p {
     height:auto ;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    width: 300px;
+    width: 400px;
     text-align: right;
     padding-top: 5px;
     padding-bottom: 10px;
