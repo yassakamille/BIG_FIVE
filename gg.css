@@ -7,7 +7,7 @@ display: grid;
   "header header header"
   "nav nav nav"
   "subject subject subject"
-  "photo table table"
+  "table table photo "
   "erling erling photo-erling"
   "footer footer footer";
   grid-template-rows:auto auto auto;
@@ -111,8 +111,8 @@ float:inline-end;
 overflow:hidden;
 /* width: 400px;  */
 height: auto;
-float: left; 
-width: 200px;
+width: 50%;
+  float: right;
 border-radius: 20px;
 /* margin-left: 20px; */
   }
@@ -189,8 +189,8 @@ a:hover{
     }
 
 table{
-float:right;
-  width:200px;
+ width: 50%;
+  float: right;
  grid-area:table;
 /* margin-left: 160px; */
 background-repeat: no-repeat;
