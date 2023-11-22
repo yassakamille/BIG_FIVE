@@ -109,10 +109,10 @@ float:inline-end;
   .photo{
   grid-area:photo;
 overflow:hidden;
-width: 400px; 
+/* width: 400px;  */
 height: auto;
-/* float: left; 
-width: 35%; */
+float: left; 
+width: 25%;
 border-radius: 20px;
 /* margin-left: 20px; */
   }
