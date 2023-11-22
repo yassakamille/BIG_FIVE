@@ -189,7 +189,8 @@ a:hover{
     }
 
 table{
-width: 500px;
+float:right;
+  width:75%;
  grid-area:table;
 /* margin-left: 160px; */
 background-repeat: no-repeat;
