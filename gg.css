@@ -7,10 +7,10 @@ display: grid;
   "header header header"
   "nav nav nav"
   "subject subject subject"
-  "table table table"
+  "photo table table"
   "erling erling photo-erling"
   "footer footer footer";
-  grid-template-rows:100px auto auto;
+  grid-template-rows:auto auto auto;
 }
    nav{
      grid-area:nav;
@@ -20,7 +20,6 @@ display: grid;
       border:black;
           border-width: 2.5px;
       border-style: solid;
-     margin-bottom:50px; 
           padding-left: 10px;
           padding-bottom: 2px;
           padding-top: 10px;
