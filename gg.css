@@ -111,14 +111,14 @@ float:inline-end;
 overflow:hidden;
 /* width: 400px;  */
 height: auto;
-width: 50%;
+width: 600px;
   float: right;
 border-radius: 20px;
 /* margin-left: 20px; */
   }
   .photo img{
     overflow: hidden;
-  width: 50%;
+  width: 600px;
   float: right;
     height: 250px;
     transition: 0.7s;
