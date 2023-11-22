@@ -109,7 +109,7 @@ float:inline-end;
   .photo{
   grid-area:photo;
 overflow:hidden;
-width: auto; 
+width: 400px; 
 height: auto;
 /* float: left; 
 width: 35%; */
@@ -189,7 +189,7 @@ a:hover{
     }
 
 table{
-width: 600px;
+width: 500px;
  grid-area:table;
 /* margin-left: 160px; */
 background-repeat: no-repeat;
@@ -234,7 +234,6 @@ background-color: rgb(230, 204, 61);
  
   }
   figure{
-  
   background: url("pngs/icons/card\ \(2\).png");
   width: 400px;
   background-repeat: no-repeat;
@@ -259,6 +258,7 @@ float: right;
      footer{
         grid-area:footer;
         height: 200px;
+       width:auto;
       padding: 20px;
      }
  
