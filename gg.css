@@ -114,7 +114,8 @@ height: auto;
 float: right;
 width: 400px;
 border-radius: 20px;
-/* margin-left: 20px; */
+float: right;
+/* margin-left: 200px; */
   }
   .photo img{
     overflow: hidden;
@@ -137,7 +138,6 @@ padding-bottom: 30px;
     text-align: right;
     padding-top: 5px;
     padding-bottom: 10px;
-    padding-right: 15px;
     color: rgb(255, 255, 255);
     font-size: large;
     font-weight: bolder;
@@ -231,7 +231,7 @@ background-color: rgb(230, 204, 61);
   }
   .photo-erling{
    grid-area:photo-erling;
-  width: 50%;
+  width: 100%;
   float: right;
  
   }
