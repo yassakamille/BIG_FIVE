@@ -2,25 +2,31 @@ body{
   background-repeat: no-repeat;
 background-size:cover;
 background-attachment: fixed;
-
+display: grid;
+  grid-template-areas:
+  "header header header"
+  "nav nav nav"
+  "subject subject subject"
+  "table table photo"
+  "erling erling photo-erling"
+  "footer footer footer";
+  grid-template-rows:auto auto auto;
 }
    nav{
-    
+     grid-area:nav;
       width: 1300px;
       height: 90px;
       background-color: rgb(230, 250, 232);
       border:black;
           border-width: 2.5px;
       border-style: solid;
-  
           padding-left: 10px;
           padding-bottom: 2px;
           padding-top: 10px;
           margin-right: auto;
           margin-left:  auto ;
-  
-position: sticky;
-top: 0;
+          position: sticky;
+          top: 0;
       }
       nav div {
           font-family: Arial, Helvetica, sans-serif;
@@ -73,6 +79,7 @@ table img{
 padding-left: 20px;
 }
 .subject{
+   grid-area:subject;
 padding: 10px 15px;
   width: 1300px;
   height: auto;
@@ -81,7 +88,7 @@ font-weight: bolder;
   font-size: 29px; 
   color:yellow;
   line-height: 40px;
-  background-color:green;
+  background-color: green;
   display:inline-flex;
   text-align: right;
   direction: rtl;
@@ -89,47 +96,44 @@ font-weight: bolder;
   margin-left: auto;
   margin-right: auto;
 font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+float:inline-end;
 }
   header{
+     grid-area:header;
       text-align: left;
       transform: none;
-      background-image: linear-gradient(to right, rgb(154, 156, 20),rgb(160, 170, 17),rgb(185, 204, 18),rgb(224, 248, 6));
-      height: 200px;
+      background-image: linear-gradient(to right, rgb(154, 156, 20),rgb(160, 170, 17),rgb(185, 204, 18),rgb(224, 248, 6));      height: 200px;
       padding: 20px;
   }
   .photo{
- 
-    overflow:hidden;
-    width: 300px; 
-    height: auto;
-    float: left; 
-    width: 35%;
-    border-radius: 20px;
-    margin-left: 20px;
-    
-      }
-      .photo img{
-        overflow: hidden;
-        width: 500px; 
-    height: 250px;
-        transition: 0.7s;
-       
-
-    
-      }
-    .photo img:hover{
+  grid-area:photo;
+overflow:hidden;
+/* width: 400px;  */
+height: auto;
+float: right;
+width: 400px;
+border-radius: 20px;
+float: right;
+/* margin-left: 200px; */
+  }
+  .photo img{
     overflow: hidden;
-     transform:scale(1.33);
-     cursor:pointer;
-     border-radius: 10px;
-     padding-bottom: 30px;
-      }
-    
-      .issay {
-    
+  width: 400px;
+  float: right;
+    height: 250px;
+    transition: 0.7s;
+  }
+.photo img:hover{
+overflow: hidden;
+ transform:scale(1.33);
+ cursor:pointer;
+padding-bottom: 30px;
+  }
+
+ .photo p {
     height:auto ;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    width: 460px;
+    width: 400px;
     text-align: right;
     padding-top: 5px;
     padding-bottom: 10px;
@@ -138,10 +142,11 @@ font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-size: large;
     font-weight: bolder;
     background-color: rgba(0, 0, 0, 0.575);
+  }
     
-    
-      }
+/*       
      .issay1{
+          grid-area:issay1;
       font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 
       border-radius: 10px;
@@ -157,8 +162,9 @@ font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
       font-weight: bolder;
       background-color: rgba(0, 0, 0, 0.575);
       
-     } 
-.summary{
+     }  */
+ 
+/* .summary{
 color: white;
   size: 70%;
   background-color: seagreen;
@@ -171,25 +177,23 @@ color: white;
  font-weight: bolder;
  margin-left: auto;
  margin-right: auto;
-
-}
-
+ float: inline-start;
+} */
     a{
-
-      text-decoration: none;
-       bottom: 100px;
+text-decoration: none;
+ bottom: 100px;
 left: 50px;
-
-
     }
+
 a:hover{
    color: orangered;
- 
     }
-table{
-/* width: 400px; */
 
-margin-left: 160px;
+table{
+ width: 100%;
+  float: left;
+ grid-area:table;
+/* margin-left: 160px; */
 background-repeat: no-repeat;
 background-size: 1800px 1750px;
 background-position: right;
@@ -198,18 +202,12 @@ border: darkblue;
 border-style: solid;
 border-width: 7px;
 tab-size: 1350px;
-display: inline-table;
-
-
-
+/* display: inline-table;  */
 }
 
-
-
 p.e{
-
   padding: 10px 15px;
-  margin-right: 500px;
+/*   margin-right: 500px; */
   width: 800px;
   height: auto;
 border: black;
@@ -218,42 +216,34 @@ font-weight: bolder;
   font-size: 20px; 
   color:rgb(0, 0, 0);
   line-height: 40px;
-
-
   text-align: right;
   direction: rtl;
- 
 font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-
 background-color: rgb(230, 204, 61);
 
  }
 
  .erling{
-  width: 50%;
-  float: left;
- 
-  }
-  .photo-erling{
+   grid-area:erling;
   width: 50%;
   float: right;
  
   }
-  
+  .photo-erling{
+   grid-area:photo-erling;
+  width: 100%;
+  float: right;
  
-  
-  
-  
+  }
   figure{
-  
   background: url("pngs/icons/card\ \(2\).png");
   width: 400px;
   background-repeat: no-repeat;
   background-size: cover;
   height: 640px;
-
-margin-left: 200px;
-  
+float: right;
+/* margin-left: 200px;
+   */
      }
      figcaption{
       text-align: center;
@@ -263,19 +253,17 @@ margin-left: 200px;
       font-weight: bolder;
   width: 400px;
     padding: 4px;
-   
+   float: right;
     border-radius: 20px;
     margin-top: 90px;
      }
-     
- footer{
-
-display: inline;
-margin-top: 500px;
-padding-top: 500px;
-padding: 0;
-bottom: 750px;
- }
+     footer{
+        grid-area:footer;
+        height: 200px;
+       width:auto;
+      padding: 20px;
+     }
+ 
 
  ::-webkit-scrollbar-thumb{
 
@@ -290,7 +278,5 @@ width: 10px;
 }
 
 *{
-
-
   text-decoration: none;
 };
