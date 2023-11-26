@@ -1,4 +1,5 @@
 .quistion{
+  grid-area:quistion;
     width: 600px;
     height: 410px;
 font-weight: bolder;
@@ -19,8 +20,16 @@ border-radius: 20px;
 body{
 background-image: url("images/badel2.jpg");
 background-repeat: no-repeat;
-background-size:  cover;
+background-size:cover;
 background-attachment: fixed;
+grid-template-areas:
+"header header header"
+"nav nav nav"
+"s s s"
+"form form form"
+"quistion quistion quistion"
+"footer footer footer";
+grid-template-rows:auto auto auto;
 
 }
 
@@ -43,7 +52,7 @@ cursor:pointer;
 
 
 nav{
-      
+  grid-area:nav;
     width: 1300px;
     height: 90px;
      background-color: rgb(230, 250, 232);
@@ -56,7 +65,7 @@ nav{
         padding-top: 10px;
         margin-right: auto;
         margin-left:  auto ;
-        position:-webkit-sticky;  
+        
   position: sticky;
   top: 0;
     }
@@ -120,6 +129,7 @@ nav{
 
 
 .s{
+  grid-area:s;
 width: 1000px;
 height: 100px;
 background: lightgreen;
@@ -192,7 +202,7 @@ input[type="search"]{
 
 
 .header{
-
+  grid-area:header;
 width: auto;
 height: auto;
 border: solid;
@@ -200,9 +210,10 @@ background-image: linear-gradient(to right ,seagreen,rgb(13, 172, 13),rgb(9, 255
 background-size: cover;
 font-size: 20px;
 font-weight: bolder;
-
+box-shadow: 0 2px 5px rgba(0,0,0,0.1);
 text-align: start;
 }
+
 
 ::-webkit-scrollbar-thumb{
 
@@ -220,4 +231,17 @@ width: 10px;
 
     padding: 0;
     margin: 0;
+}
+footer {
+  grid-area:footer;
+	background-color: #333;
+	color: #fff;
+	padding: 20px;
+	text-align: center;
+ max-width: 100%;
+}
+
+footer p {
+	margin: 0;
+	font-size: 14px;
 }
