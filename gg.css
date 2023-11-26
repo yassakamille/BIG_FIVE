@@ -27,6 +27,7 @@ display: grid;
           margin-left:  auto ;
           position: sticky;
           top: 0;
+          margin-top:10px;
       }
       nav div {
           font-family: Arial, Helvetica, sans-serif;
