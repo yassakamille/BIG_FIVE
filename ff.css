@@ -25,6 +25,7 @@ display: grid;
           padding-top: 10px;
           margin-right: auto;
           margin-left:  auto ;
+     margin-top:10px;
           position: sticky;
           top: 0;
       }
