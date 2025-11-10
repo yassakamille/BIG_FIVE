@@ -13,6 +13,11 @@ display: grid;
   grid-template-rows:auto auto auto;
 }
    nav{
+      grid-area:nav;
+    position: sticky;
+    top: 0;
+    margin-top:10px;
+    z-index: 1000;
      grid-area:nav;
       width: 1300px;
       height: 90px;
@@ -281,3 +286,4 @@ width: 10px;
 *{
   text-decoration: none;
 };
+
