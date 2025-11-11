@@ -1,132 +1,132 @@
-
-body{
-    
-    background-image: url("images/badel2.jpg");
-    background-repeat: no-repeat;
-  background-size:  1400px 1300px;
- background-attachment: cover;
+body {
+  background-image: url("images/badel2.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  grid-template-areas:
+    "header header header"
+    "nav nav nav"
+    "s s s"
+    "form form form"
+    "quistion quistion quistion"
+    "footer footer footer";
+  grid-template-rows: auto auto auto;
 }
 
-
-
-nav{
-      
-    width: 1300px;
-    height: 90px;
-    background-color: rgb(230, 250, 232);
-    border:black;
-        border-width: 2.5px;
-    border-style: solid;
-      
-        padding-left: 10px;
-        padding-bottom: 10px;
-        padding-top: 5px;
-        margin-right: auto;
-        margin-left:  auto ;
-        position:-webkit-sticky;  
+nav {
+  width: 1300px;
+  height: 90px;
+  background-color: rgb(230, 250, 232);
+  border: black;
+  border-width: 2.5px;
+  border-style: solid;
+  padding-left: 10px;
+  padding-bottom: 10px;
+  padding-top: 5px;
+  margin-right: auto;
+  margin-left: auto;
+  position: -webkit-sticky;
   position: sticky;
   top: 0;
-    }
+}
 
-    nav div {
+nav div {
+  display: inline;
+  padding-left: 15px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: large;
+  text-align: center;
+  font-weight: bolder;
+}
 
-        display:inline; 
-       padding-left: 15px;
-        font-family: Arial, Helvetica, sans-serif;
-        font-size: large;
-       text-align: center;
-      font-weight: bolder;
-    } 
-  
-    span.h{
-        position:relative;
-        top: 20px;
-        right: 75px;
-      }
-      span.g{
-        position:relative;
-        top: 20px;
-        right: 90px;
-      }
-      span.se{
-        position:relative;
-        top: 20px;
-        right: 85px;
-      }
-      span.l{
-        position:relative;
-        top: 20px;
-        right: 85px;
-      }
-      span.la{
-        position:relative;
-        top: 20px;
-        right: 80px;
-      }
-      span.e{
-        position:relative;
-        top: 20px;
-        right: 70px;
-      }
-      span.settings{
-        position:relative;
-        top: 20px;
-        right: 75px;
-      }
-    
-    a:hover{
+span.h {
+  position: relative;
+  top: 20px;
+  right: 75px;
+}
 
+span.g {
+  position: relative;
+  top: 20px;
+  right: 90px;
+}
 
-        color: orangered;
-        font-size:large ;
-      }
+span.se {
+  position: relative;
+  top: 20px;
+  right: 85px;
+}
 
-    .form{
+span.l {
+  position: relative;
+  top: 20px;
+  right: 85px;
+}
 
-width: 700px;
-height: 300px;
-border-radius: 30px;
-margin-left: 300px;
-text-align: center;
-color: white;
-background-image: url("images/hacker.jfif");
-background-repeat: no-repeat;
-background-size:   700px;
-font-size: 30px;
-font-weight: bolder;
-font-family: monospace;
+span.la {
+  position: relative;
+  top: 20px;
+  right: 80px;
+}
 
-    }
-     
-    a{
+span.e {
+  position: relative;
+  top: 20px;
+  right: 70px;
+}
 
-        text-decoration: none;
-         bottom: 100px;
-left: 50px;
+span.settings {
+  position: relative;
+  top: 20px;
+  right: 75px;
+}
 
+a:hover {
+  color: orangered;
+  font-size: large;
+}
 
-      }
-      #d{
-          text-align: center;
-      }
-      #heading{
-          text-align: center;
-          color: white;
-          font-size: 40px;
-          font-family:cursive;
-          font-weight: bolder;
-      }
-      
-    
-      
-::-webkit-scrollbar-thumb{
+.form {
+  width: 700px;
+  height: 300px;
+  border-radius: 30px;
+  margin: 0 auto;
+  text-align: center;
+  color: white;
+  background-image: url("images/hacker.jfif");
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-size: 30px;
+  font-weight: bolder;
+  font-family: monospace;
+}
 
-    background-color: seagreen;
- }
- ::-webkit-scrollbar{
- 
- width: 10px;
- }
- ::-webkit-scrollbar-track{
-     background-color: rgb(70, 68, 68);
- }
+a {
+  text-decoration: none;
+  bottom: 100px;
+  left: 50px;
+}
+
+#d {
+  text-align: center;
+}
+
+#heading {
+  text-align: center;
+  color: white;
+  font-size: 40px;
+  font-family: cursive;
+  font-weight: bolder;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: seagreen;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background-color: rgb(70, 68, 68);
+}
